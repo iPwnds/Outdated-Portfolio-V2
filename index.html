@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<!-- All the info needed for the page to work properly -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Florian's portfolio</title>
+  <link rel="icon" href="public/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+  <link rel="stylesheet" href="src/styles/style.css" />
+  <link rel="stylesheet" href="src/styles/style.sass" />
+</head>
+
+<!-- The start of the visible content on this page -->
+
+<body>
+  <div id="progressbar"></div>
+  <header class="topnav">
+    <div class="topnav_color" data-aos="zoom-out">
+      <a href="index.html" data-aos="fade-right"><b>Florian's Portfolio</b></a>
+      <a href="projects.html" data-aos="fade-right">Projects</a>
+      <a href="about.html" data-aos="fade-right">About</a>
+      <a href="contact.html" data-aos="fade-right">Contact</a>
+    </div>
+  </header>
+  <section class="centered">
+    <div>
+      <h1 class="header light_colored" data-aos="fade-right">Hello,</h1>
+      <h1 class="header" data-aos="fade-left">I'm Florian.</h1>
+    </div>
+    <b class="hr anim" style="width: 35%;" data-aos="fade-in"></b>
+  </section>
+  <div style="padding-top: 25vh;"></div>
+  <div style="padding-bottom: 25vh;"></div>
+  <section class="centered">
+    <div>
+      <h1 class="text light_colored" data-aos="flip-up">
+        I am 16, and I am really passionate about coding
+      </h1>
+      <h1 class="text light_colored" data-aos="flip-down">
+        I am currently learing
+        <span class="dark_highlight">Coding and 3D/2D modeling</span>
+      </h1>
+    </div>
+    <b class="hr anim" style="width: 80%;" data-aos="fade-in"></b>
+  </section>
+  <div style="padding-top: 25vh;"></div>
+  <div style="padding-bottom: 25vh;"></div>
+  <section class="centered">
+    <div>
+      <h1 class="header" data-aos="fade-in">current projects</h1>
+    </div>
+    <b class="hr anim" style="width: 50%;" data-aos="fade-in"></b>
+  </section>
+  <div style="padding-bottom: 15vh;"></div>
+  <section class="centered">
+    <div class="box animated">
+      <a href="" class="text light_colored decoration" data-aos="zoom-in">
+        Portfolio Website
+      </a>
+    </div>
+    <div style="padding-bottom: 10vh;"></div>
+    <div class="box animated">
+      <a href="" class="text light_colored decoration" data-aos="zoom-in">
+        Learning JavaScript
+      </a>
+    </div>
+    <div style="padding-bottom: 10vh;"></div>
+    <div class="box animated">
+      <a href="" class="text light_colored decoration" data-aos="zoom-in">
+        GitHub Profile
+      </a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer" style="padding: 200px 25px 15px 25px;">
+      <div class="content">
+        <div class="rainbow" style="padding-top: 135px;">
+          <div>
+            <p>Made with &#128151; By Florian Braun</p>
+          </div>
+          <div>
+            <p>&copy; copyright 2020-<script>
+            document.write(new Date().getFullYear())
+            </script> Florian Braun</p>
+          </div>
+        </div>
+        <div>
+          <div><b class="littletext light_colored">Contact</b><br></div>
+          <div><b>GitHub</b><br><a href="contact.html">iPwnds</a></div>
+          <div><b>Twitter</b><br><a href="contact.html">Floski11</a></div>
+          <div><b>Discord</b><br><a href="contact.html">プンズ#6969</a></div>
+        </div>
+        <div>
+          <div><b>Reddit</b><br><a href="contact.html">NotPwnds</a></div>
+          <div><b>Instagram</b><br><a href="contact.html">Floski___</a></div>
+          <div><b>Email Public</b><br><a href="contact.html">Florian.Braun.2005@gmail.com</a></div>
+          <div><b>Email Private</b><br><a href="contact.html">FlorianB.Priv@gmail.com</a></div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+		</svg>
+	</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="src/scripts/script.js"></script>
+  <script src="src/scripts/script.ts"></script>
+  <script>
+    AOS.init({
+      once: false,
+      mirror: true,
+      anchorPlacement: 'top-bottom',
+      offset: 0,
+      duration: 800
+    });
+  </script>
+</body>
+
+</html>
