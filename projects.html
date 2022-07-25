@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
-  <link rel="stylesheet" href="src/styles/style.css" />
   <link rel="stylesheet" href="src/styles/style.sass" />
+  <link rel="stylesheet" href="src/styles/style.css" />
 </head>
 
 <!-- The start of the visible content on this page -->
 
-<body>
+<body onload="SideBar()">
   <div id="progressbar"></div>
   <header class="topnav">
     <div class="topnav_color" data-aos="zoom-out">
@@ -339,8 +339,8 @@
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="src/scripts/main.ts"></script>
   <script src="src/scripts/script.js"></script>
-  <script src="src/scripts/script.ts"></script>
   <script>
     AOS.init({
       once: false,
