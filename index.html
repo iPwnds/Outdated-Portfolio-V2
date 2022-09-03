@@ -21,7 +21,7 @@
 
 <!-- The start of the visible content on this page -->
 
-<body onload="SideBar()">
+<body onload="SideBar(), ChangeDate()">
   <div id="progressbar"></div>
   <header class="topnav">
     <div class="topnav_color" data-aos="zoom-out">
@@ -88,9 +88,7 @@
             <p>Made with &#128151; By Florian Braun</p>
           </div>
           <div>
-            <p>&copy; copyright 2020-<script>
-            document.write(new Date().getFullYear())
-            </script> Florian Braun</p>
+            <p>&copy; copyright 2020 - <span id="current-year"></span> Florian Braun</p>
           </div>
         </div>
         <div>
