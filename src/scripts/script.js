@@ -1,7 +1,23 @@
 function ChangeDate(){
 	let dateEl = document.getElementById("current-year")
 	dateEl.innerText = new Date().getFullYear();
-	console.log('hi')
+}
+
+function ChangeAge(){
+	let ageEl = document.getElementById("current-age")
+	
+	var birthDate = new Date(2005, 10, 19);
+	var currentDate = new Date();
+	var age = currentDate.getFullYear() - birthDate.getFullYear();
+	var month = currentDate.getMonth() - birthDate.getMonth();
+	var day = currentDate.getDate() - birthDate.getDate();
+
+	if ( month < 0 || month == 0 && day < 0 )
+	{
+    	age--;
+	}
+
+	ageEl.innerText = age;
 }
 
 function SideBar(){
