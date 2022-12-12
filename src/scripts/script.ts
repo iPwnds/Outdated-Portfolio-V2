@@ -1,3 +1,8 @@
+import { createApp } from 'vue'
+import App from '../components/Header.vue'
+
+createApp(App).mount('#header')
+
 function BrowserDetect(){
 
 	let userAgent = navigator.userAgent;
