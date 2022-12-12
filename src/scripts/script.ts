@@ -1,7 +1,10 @@
 import { createApp } from 'vue'
-import App from '../components/Header.vue'
 
-createApp(App).mount('#header')
+import Header from '../components/Header.vue'
+createApp(Header).mount('#header')
+
+import Footer from '../components/Footer.vue'
+createApp(Footer).mount('#footer')
 
 function BrowserDetect(){
 
