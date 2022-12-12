@@ -1,8 +1,3 @@
-function ChangeDate(){
-	let dateEl = document.getElementById("current-year")
-	dateEl.innerText = new Date().getFullYear();
-}
-
 function ChangeAge(){
 	let ageEl = document.getElementById("current-age")
 	
