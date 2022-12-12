@@ -60,6 +60,38 @@
         justify-content: center;
         align-items: center;
     }
+
+    #progressbar {
+	      position: fixed;
+	      top: 0;
+	      left: 0;
+	      width: 5px;
+
+	      background: linear-gradient(to top, #62efab,#62efab);
+	      animation: animate 10s linear infinite;
+    }
+
+    @keyframes animate {
+    	  0%,100%
+    	  {
+    		  filter: hue-rotate(0deg);
+    	  }
+    	  50%
+    	  {
+    		  filter: hue-rotate(360deg);
+    	  }
+    }
+
+    #progressbar:before {
+    	  content: '';
+    	  position: absolute;
+    	  top: 0;
+    	  left: 0;
+    	  width: 100%;
+    	  height: 100%;
+    	  background: linear-gradient(to top, #62efab, #62efab);
+    	  filter: blur(10px);
+    }
 </style>
 
 <script setup lang="ts">
