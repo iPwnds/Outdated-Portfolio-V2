@@ -1,13 +1,18 @@
+@import 'font.scss';
+@import 'color.css';
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 html {
     background-color: var(--dark-blue);
     color: var(--light-blue);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RobotoLight', sans-serif;
     font-weight: 400;
     font-size: 1vh;
     text-shadow: none;
@@ -28,7 +33,6 @@ html {
     --medium-blue: #242B36;
     --dark-light-blue: #222933; 
     --dark-blue: #1C2129; 
-	--white: #ffffff;
 }
 
 .button {
@@ -178,15 +182,6 @@ html {
             animation-duration: 2s;
 }
 
-.rainbow {
-    background: linear-gradient(to right, #62efab 5%, #F2EA7D 15%, #F2EA7D 25%, #FF8797 35%, #FF8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: bar 15s linear infinite;
-            animation: bar 15s linear infinite;
-}
-
 .column {
     display: flex;
     flex-direction: row;
@@ -240,76 +235,4 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--dark-blue);
-}
-
-footer {
-    z-index: 1;
-    display: grid;
-    position: relative;
-    grid-area: footer;
-    min-height: 12rem;
-}
-
-.content{
-    z-index: 2;
-    display: grid;
-    grid-template-columns: .7fr .2fr auto;
-    grid-gap: 4rem;
-    padding: 2rem;
-    color: var(--light-blue);
-}
-
-.content a{
-    color: var(--light-blue);
-    text-decoration: none;
-}
-
-.content > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.content > div > div {
-    margin: 0.5rem 0;
-    font-size: 1vw;
-}
-
-.content > div > div > * {
-    margin-right: 0.5rem;
-}
-
-#progressbar
-{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 5px;
-
-	background: linear-gradient(to top, #62efab,#62efab);
-	animation: animate 10s linear infinite;
-}
-
-@keyframes animate
-{
-	0%,100%
-	{
-		filter: hue-rotate(0deg);
-	}
-	50%
-	{
-		filter: hue-rotate(360deg);
-	}
-}
-
-#progressbar:before
-{
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to top, #62efab, #62efab);
-	filter: blur(10px);
 }
