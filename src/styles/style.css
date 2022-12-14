@@ -1,5 +1,5 @@
-@import 'font.scss';
-@import 'color.css';
+@import './font.scss';
+@import './color.css';
 
 * {
     padding: 0;
