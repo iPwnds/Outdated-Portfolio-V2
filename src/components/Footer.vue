@@ -26,7 +26,7 @@
     </div>
   </footer> 
 </template>
-    
+
 <style scoped>
   footer {
     z-index: 1;
@@ -42,11 +42,11 @@
     grid-template-columns: .7fr .2fr auto;
     grid-gap: 4rem;
     padding: 2rem;
-    color: var(--light-blue);
+    color: var(--midnight-blue-400);
   }
 
   .content a{
-    color: var(--light-blue);
+    color: var(--midnight-blue-400);
     text-decoration: none;
   }
 
