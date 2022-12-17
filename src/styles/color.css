@@ -1,4 +1,7 @@
 :root{
+
+    /* Traditional Colors */
+
     /* Red */
     --red: #f44336;
     --red-50: #ffebee;
@@ -294,6 +297,8 @@
     /* White / Black */
     --white: #ffffff;
     --black: #000000;
+
+    /* Special Colors */
 
     /* Turquoise */
     --turquoise: #1abc9c;
