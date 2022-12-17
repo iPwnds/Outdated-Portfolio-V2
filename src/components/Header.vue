@@ -23,7 +23,7 @@
     }
 
     .topnav_color {
-        background-color: var(--dark-light-blue);
+        background-color: var(--midnight-blue-800);
         border-radius: 20px;
         line-height: 2.5;
         text-shadow: none;
@@ -34,7 +34,7 @@
 
     .topnav a {
         float: left;
-        color: var(--light-blue);
+        color: var(--midnight-blue-400);
         text-align: center;
         padding-left: 3vw;
         padding-right: 3vw;
@@ -48,7 +48,7 @@
     }
 
     .topnav a:hover {
-        background-color: var(--light-dark-blue);
+        background-color: var(--midnight-blue-600);
         border-radius: 20px;
         line-height: 2.5;
         padding-right: 3vw;
@@ -56,7 +56,7 @@
         padding-top: 0.75vw;
         padding-bottom: 0.75vw;
         text-shadow: none;
-        box-shadow: 3px 2px 2px var(--medium-blue);
+        box-shadow: 3px 2px 2px var(--midnight-blue-800);
         justify-content: center;
         align-items: center;
     }
