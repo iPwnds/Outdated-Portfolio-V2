@@ -10,8 +10,8 @@
 }
 
 html {
-    background-color: var(--dark-blue);
-    color: var(--light-blue);
+    background-color: var(--midnight-blue-900);
+    color: var(--midnight-blue-300);
     font-family: 'RobotoLight', sans-serif;
     font-weight: 400;
     font-size: 1vh;
@@ -27,18 +27,10 @@ html {
     margin-bottom: -30vh;
 }
 
-:root {
-    --light-blue: #7A92B5; 
-    --light-dark-blue: #4F5E75; 
-    --medium-blue: #242B36;
-    --dark-light-blue: #222933; 
-    --dark-blue: #1C2129; 
-}
-
 .button {
-    background-color: var(--dark-light-blue);
+    background-color: var(--midnight-blue-800);
     border: none;
-    color: var(--light-dark-blue);
+    color: var(--midnight-blue-600);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -67,26 +59,26 @@ html {
 }
 
 .dark_colored {
-    color: var(--dark-light-blue);
-}
-
-.light_colored {
-    color: var(--light-dark-blue);
+    color: var(--midnight-blue-800);
 }
 
 .medium_colored {
-    color: var(--medium-blue);
+    color: var(--midnight-blue-600);
+}
+
+.light_colored {
+    color: var(--midnight-blue-400);
 }
 
 .dark_highlight {
-    background-color: var(--dark-light-blue);
+    background-color: var(--midnight-blue-800);
     border-radius: 20px;
     line-height: 1.5;
     padding-right: 0.9vw;
     padding-left: 0.9vw;
     font-weight: 520;
     text-shadow: none;
-    box-shadow: 3px 2px 2px var(--dark-blue);
+    box-shadow: 3px 2px 2px var(--midnight-blue-900);
 }
 
 .header {
@@ -202,14 +194,14 @@ html {
 
 .box {
     font-size: 1.5vw;
-    background-color: var(--medium-blue);
+    background-color: var(--midnight-blue-800);
     border-radius: 10px;
     line-height: 1.5;
     padding-right: 0.9vw;
     padding-left: 0.9vw;
     font-weight: 400;
     text-shadow: none;
-    box-shadow: 3px 2px 2px var(--dark-light-blue);
+    box-shadow: 3px 2px 2px var(--midnight-blue-900);
     line-height: 1.7;
     letter-spacing: 1px;
 }
@@ -224,15 +216,15 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--light-dark-blue);
+    background: var(--midnight-blue-400);
     border-radius: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--medium-blue);
+    background: var(--midnight-blue-600);
     border-radius: 7px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--dark-blue);
+    background: var(--midnight-blue-800);
 }
