@@ -42,7 +42,7 @@
         padding-bottom: 0.75vw;
         line-height: 2.5;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.5vw;
         justify-content: center;
         align-items: center;
     }
@@ -61,16 +61,6 @@
         align-items: center;
     }
 
-    #progressbar {
-	      position: fixed;
-	      top: 0;
-	      left: 0;
-	      width: 5px;
-
-	      background: linear-gradient(to top, #62efab,#62efab);
-	      animation: animate 10s linear infinite;
-    }
-
     @keyframes animate {
     	  0%,100%
     	  {
@@ -80,6 +70,16 @@
     	  {
     		  filter: hue-rotate(360deg);
     	  }
+    }
+
+    #progressbar {
+	      position: fixed;
+	      top: 0;
+	      left: 0;
+	      width: 5px;
+
+	      background: linear-gradient(to top, #62efab,#62efab);
+	      animation: animate 10s linear infinite;
     }
 
     #progressbar:before {
