@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <div class="footer" style="padding: 200px 25px 15px 25px;">
+    <div class="footer" style="padding: 5vw 0vw 1vw 1vw;">
       <div class="content">
-        <div class="rainbow" style="padding-top: 135px;">
+        <div class="rainbow" style="padding-top: 7.5vw;">
           <div>
             <p>Made with &#128151; By Florian Braun</p>
           </div>
@@ -11,10 +11,10 @@
           </div>
         </div>
         <div>
-          <div><b class="littletext light_colored">Contact</b><br></div>
+          <div><b class="small light_colored">Contact</b><br></div>
           <div><b>GitHub</b><br><a href="contact.html">iPwnds</a></div>
+          <div><b>Discord</b><br><a href="contact.html">FlorianB#2341</a></div>
           <div><b>Twitter</b><br><a href="contact.html">Floski11</a></div>
-          <div><b>Discord</b><br><a href="contact.html">プンズ#2341</a></div>
         </div>
         <div>
           <div><b>Reddit</b><br><a href="contact.html">NotPwnds</a></div>
@@ -69,8 +69,7 @@
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: bar 15s linear infinite;
-            animation: bar 15s linear infinite;
+    animation: bar 15s linear infinite;
   }
 </style>
     
