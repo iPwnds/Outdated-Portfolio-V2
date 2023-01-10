@@ -1,17 +1,17 @@
 <template>
 <div id="progressbar"></div>
-  <header class="topnav">
-    <div class="topnav_color" data-aos="zoom-out">
-      <a href="index.html" data-aos="fade-right"><b>Florian's Portfolio</b></a>
-      <a href="about.html" data-aos="fade-right">About</a>
-      <a href="projects.html" data-aos="fade-right">Projects</a>
-      <a href="contact.html" data-aos="fade-right">Contact</a>
+  <header>
+    <div class="topnav" data-aos="fade-in">
+      <a href="index.html" data-aos="fade-in"><b>// Florian's Portfolio</b></a>
+      <a href="about.html" data-aos="fade-in">// About</a>
+      <a href="projects.html" data-aos="fade-in">// Projects</a>
+      <a href="contact.html" data-aos="fade-in">// Contact</a>
     </div>
   </header>
 </template>
 
 <style scoped>
-  .topnav {
+  header {
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -20,9 +20,10 @@
     padding-left: 2vw;
     padding-right: 2vw;
     padding-top: 2vw;
+    padding-bottom: 10vh;
   }
 
-  .topnav_color {
+  .topnav {
     background-color: var(--midnight-blue-800);
     border-radius: 20px;
     line-height: 2.5;
@@ -32,7 +33,7 @@
     align-items: center;
   }
 
-  .topnav a {
+  header a {
     float: left;
     color: var(--midnight-blue-400);
     text-align: center;
@@ -47,7 +48,7 @@
     align-items: center;
   }
 
-  .topnav a:hover {
+  header a:hover {
     background-color: var(--midnight-blue-600);
     border-radius: 20px;
     line-height: 2.5;
