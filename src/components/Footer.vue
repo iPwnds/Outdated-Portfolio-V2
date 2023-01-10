@@ -34,6 +34,7 @@
     position: relative;
     grid-area: footer;
     min-height: 12rem;
+    padding-top: 10vh;
   }
 
   .content{
