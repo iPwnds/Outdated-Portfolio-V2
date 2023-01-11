@@ -11,7 +11,7 @@
           </div>
         </div>
         <div>
-          <div><b class="small light_colored">Contact</b><br></div>
+          <div class="tag"><b class="small light_colored">Contact</b><br></div>
           <div><b>GitHub</b><br><a href="contact.html">iPwnds</a></div>
           <div><b>Discord</b><br><a href="contact.html">FlorianB#2341</a></div>
           <div><b>Twitter</b><br><a href="contact.html">Floski11</a></div>
@@ -71,6 +71,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: bar 15s linear infinite;
+  }
+
+  .tag :before{
+    content: "< ";
+    font-size: 0.75vw;
+    font-weight: 100;
+  }
+
+  .tag :after{
+    content: " />";
+    font-size: 0.75vw;
+    font-weight: 100;
   }
 </style>
     
