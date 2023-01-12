@@ -7,7 +7,7 @@
             <p>Made with &#128151; By Florian Braun</p>
           </div>
           <div>
-            <p>&copy; copyright 2020 - {{ new Date().getFullYear() }} Florian Braun</p>
+            <p>&copy; copyright 2020 - {{ year() }} Florian Braun</p>
           </div>
         </div>
         <div>
@@ -95,5 +95,8 @@
 </style>
     
 <script setup lang="ts">
-  
+  const year = () => {
+	  var date = Date.now();
+    return new Date(date).getUTCFullYear();
+  };
 </script>
