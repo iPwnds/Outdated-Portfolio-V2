@@ -35,5 +35,3 @@ function BrowserDetect(){
     	  	 document.write("<link rel=\"stylesheet\" href=\"src/styles/style.css\" >");
     		}
 }
-
-export{}
