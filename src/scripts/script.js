@@ -1,18 +1,18 @@
-function ChangeAge(){
-	let ageEl = document.getElementById("current-age")
+function Age(){
+	let ageEl = document.getElementById("age")
 	
 	var birthDate = new Date(2005, 10, 19);
 	var currentDate = new Date();
-	var age = currentDate.getFullYear() - birthDate.getFullYear();
+	var year = currentDate.getFullYear() - birthDate.getFullYear();
 	var month = currentDate.getMonth() - birthDate.getMonth();
 	var day = currentDate.getDate() - birthDate.getDate();
 
 	if ( month < 0 || month == 0 && day < 0 )
 	{
-    	age--;
+    	year--;
 	}
 
-	ageEl.innerText = age;
+	ageEl.innerText = year;
 }
 
 function SideBar(){
