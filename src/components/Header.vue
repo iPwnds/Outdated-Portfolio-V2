@@ -16,15 +16,15 @@
 <style scoped>
   header {
     overflow: hidden;
-    padding: 2vw 2vw 10vh 4vw;
+    padding: 2vw 2vw 10vh 19.6vw;
     max-width: 100%;
     display: inline-flex;
   }
 
   nav {
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
   }
 
   .topnav {
@@ -82,7 +82,7 @@
   .quote {
     font-size: 2vw;
     display: flex;
-    margin-left: 25vw;
+    margin-left: 10vw;
     text-align: right;
   }
 
