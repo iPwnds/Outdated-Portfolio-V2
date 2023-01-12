@@ -48,7 +48,6 @@
 
   .content a{
     color: var(--midnight-blue-400);
-    text-decoration: none;
   }
 
   .content > div {
@@ -71,6 +70,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: bar 15s linear infinite;
+  }
+
+  @keyframes bar {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 200%;
+    }
   }
 
   .tag :before{
