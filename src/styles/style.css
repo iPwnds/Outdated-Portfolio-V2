@@ -17,6 +17,7 @@ html {
     font-weight: 400;
     font-size: 0.1vw;
     text-shadow: none;
+    display: flex;
     scroll-behavior: smooth;
     -webkit-transition: all 200ms linear;
 	transition: all 200ms linear; 
@@ -89,7 +90,6 @@ html {
     color: var(--midnight-blue-400);
     padding: 25px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 1.75vw;
     margin: 35px;
@@ -104,7 +104,6 @@ html {
     line-height: 1.5;
     padding: 0px 25px;
     font-weight: 400;
-    text-shadow: none;
     box-shadow: 3px 2px 2px var(--midnight-blue-900);
     line-height: 1.7;
     letter-spacing: 1px;
@@ -118,7 +117,6 @@ html {
     padding-right: 0.9vw;
     padding-left: 0.9vw;
     font-weight: 520;
-    text-shadow: none;
     box-shadow: 3px 2px 2px var(--midnight-blue-900);
 }
 
