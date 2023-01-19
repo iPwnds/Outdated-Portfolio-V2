@@ -16,9 +16,9 @@
 <style scoped>
   header {
     overflow: hidden;
-    padding: 2vw 2vw 10vh 19.6vw;
-    max-width: 100%;
-    display: inline-flex;
+    padding: 2vw 2vw 10vh 2vw;
+    display: flex;
+    width: 100vw;
   }
 
   nav {
