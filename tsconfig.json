@@ -13,6 +13,6 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/scripts/vite-env.d.tsite-src/scripts/vite-env.d.tsrc/scripts/vite-env.d.ts", "src/vite-env.d.tsd.tssrc/vite-env.d.tsenv.d.ts", "vite-env.d.ts", "vite-env.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/scripts/vite-env.d.tsite-src/scripts/vite-env.d.tsrc/scripts/vite-env.d.ts", "src/vite-env.d.tsd.tssrc/vite-env.d.tsenv.d.ts", "vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
