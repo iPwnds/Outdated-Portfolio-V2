@@ -82,7 +82,7 @@
   .quote {
     font-size: 2vw;
     display: flex;
-    margin-left: 10vw;
+    margin-left: 27.5vw;
     text-align: right;
   }
 
