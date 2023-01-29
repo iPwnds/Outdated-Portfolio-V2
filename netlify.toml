@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/*"
+  to = "src/Pages/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/bio"
+  to = "https://linktr.ee/florianb"
+  status = 301
+  force = true
