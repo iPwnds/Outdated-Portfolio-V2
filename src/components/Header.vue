@@ -4,12 +4,12 @@
   <nav>
     <div class="topnav" data-aos="fade-in">
       <a href="index.html" data-aos="fade-in"><b>// Florian's Portfolio</b></a>
-      <a href="about.html" data-aos="fade-in">// About</a>
-      <a href="projects.html" data-aos="fade-in">// Projects</a>
       <a href="contact.html" data-aos="fade-in">// Contact</a>
     </div>
   </nav>
-    <a href="https://www.youtube.com/watch?v=43TmnIaL3n4" class="quote gradient" data-aos="fade-in">Never<br>Give<br>Up</a>
+  <div class="quote">
+    <a href="https://www.youtube.com/watch?v=43TmnIaL3n4" class="gradient" data-aos="fade-in">Never<br>Give<br>Up</a>
+  </div>
 </header>
 </template>
 
@@ -82,8 +82,10 @@
   .quote {
     font-size: 2vw;
     display: flex;
-    margin-left: 27.5vw;
     text-align: right;
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
   }
 
   .gradient {
