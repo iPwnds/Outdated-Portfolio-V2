@@ -12,19 +12,40 @@
         </div>
         <div>
           <div class="tag"><b class="small light_colored">Contact</b><br></div>
-          <div><b>GitHub</b><br><a href="contact.html">iPwnds</a></div>
-          <div><b>Discord</b><br><a href="contact.html">FlorianB#2341</a></div>
-          <div><b>Twitter</b><br><a href="contact.html">Floski11</a></div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/github.svg"></object>
+            <b>GitHub</b><br><a href="contact.html" height="12px" width="12px">iPwnds</a>
+          </div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/discord.svg"></object>
+            <b>Discord</b><br><a href="contact.html" height="12px" width="12px">FlorianB#2341</a>
+          </div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/twitter.svg"></object>
+            <b>Twitter</b><br><a href="contact.html" height="12px" width="12px">Floski11</a>
+          </div>
         </div>
         <div>
-          <div><b>Reddit</b><br><a href="contact.html">NotPwnds</a></div>
-          <div><b>Instagram</b><br><a href="contact.html">Floski___</a></div>
-          <div><b>Email Public</b><br><a href="contact.html">Florian.Braun.2005@gmail.com</a></div>
-          <div><b>Email Private</b><br><a href="contact.html">FlorianB.Priv@gmail.com</a></div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/reddit.svg"></object>
+            <b>Reddit</b><br><a href="contact.html" height="12px" width="12px">NotPwnds</a>
+          </div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/instagram.svg"></object>
+            <b>Instagram</b><br><a href="contact.html" height="12px" width="12px">Floski___</a>
+          </div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/mail.svg"></object>
+            <b>Email Public</b><br><a href="contact.html" height="12px" width="12px">Florian.Braun.2005@gmail.com</a>
+          </div>
+          <div>
+            <object type="image/svg+xml" data="../assets/svg/mail.svg"></object>
+            <b>Email Private</b><br><a href="contact.html" height="12px" width="12px">FlorianB.Priv@gmail.com</a>
+          </div>
         </div>
       </div>
     </div>
-  </footer> 
+  </footer>
 </template>
 
 <style scoped>
