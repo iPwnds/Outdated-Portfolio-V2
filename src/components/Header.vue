@@ -3,8 +3,10 @@
 <header>
   <nav>
     <div class="topnav" data-aos="fade-in">
-      <a href="index.html" data-aos="fade-in"><b>// Florian's Portfolio</b></a>
-      <a href="contact.html" data-aos="fade-in">// Contact</a>
+      <a href="./index.html" data-aos="fade-in"><b>// Florian's Portfolio</b></a>
+      <a href="./404.html" data-aos="fade-in">// Projects</a>
+      <a href="./404.html" data-aos="fade-in">// About</a>
+      <a href="./contact.html" data-aos="fade-in">// Contact</a>
     </div>
   </nav>
   <div class="quote">
