@@ -1,5 +1,4 @@
 # Custom gitignore file
-
 node_modules
 *.code-workspace
 dist
