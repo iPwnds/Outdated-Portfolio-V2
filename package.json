@@ -1,44 +1,28 @@
 {
   "name": "portfolio",
-  "version": "2.0.0",
   "description": "Florian Braun's Portfolio Website",
-  "main": "index.js",
-  "root": "src/pages",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "author": "Florian Braun",
+  "version": "2.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/iPwnds/Portfolio"
   },
-  "keywords": [
-    "html",
-    "css",
-    "javascript",
-    "npm",
-    "node",
-    "sass",
-    "postcss",
-    "typescript",
-    "vue.js",
-    "vite",
-    "nuxt.js",
-    "eslint"
-  ],
-  "author": "Florian Braun",
-  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "eslint": "^8.33.0",
-    "nuxt": "^3.1.1",
-    "postcss": "^8.4.21",
-    "sass": "^1.57.1",
-    "typescript": "^4.9.5",
-    "vite": "^4.0.4",
-    "vue": "^3.2.45"
+    "sass": "^1.60.0",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vue-tsc": "^1.2.0"
   }
 }

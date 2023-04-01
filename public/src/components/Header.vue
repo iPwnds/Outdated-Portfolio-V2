@@ -10,7 +10,7 @@
     </div>
   </nav>
   <div class="quote">
-    <a href="https://www.youtube.com/watch?v=43TmnIaL3n4" class="gradient" data-aos="fade-in">Never<br>Give<br>Up</a>
+    <a href="https://www.fluently.info" class="gradient" data-aos="fade-in">Never<br>Give<br>Up</a>
   </div>
 </header>
 </template>
