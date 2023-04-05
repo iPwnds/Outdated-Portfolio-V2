@@ -1,27 +1,25 @@
-function Age(){
-	let ageEl = document.getElementById("age")
-	
-	var birthDate = new Date(2005, 10, 19);
-	var currentDate = new Date();
-	var year = currentDate.getFullYear() - birthDate.getFullYear();
-	var month = currentDate.getMonth() - birthDate.getMonth();
-	var day = currentDate.getDate() - birthDate.getDate();
+function Age () {
+  const ageEl = document.getElementById('age')
 
-	if ( month < 0 || month == 0 && day < 0 )
-	{
-    	year--;
-	}
+  const birthDate = new Date(2005, 10, 19)
+  const currentDate = new Date()
+  let year = currentDate.getFullYear() - birthDate.getFullYear()
+  const month = currentDate.getMonth() - birthDate.getMonth()
+  const day = currentDate.getDate() - birthDate.getDate()
 
-	ageEl.innerText = year;
+  if (month < 0 || month == 0 && day < 0) {
+    	year--
+  }
+
+  ageEl.innerText = year
 }
 
-function SideBar(){
+function SideBar () {
+  const progress = document.getElementById('progressbar')
+  const totalHeight = document.body.scrollHeight - window.innerHeight
 
-	let progress = document.getElementById('progressbar');
-	let totalHeight = document.body.scrollHeight - window.innerHeight;
-	
-		window.onscroll = function () {
-  			let progressHeight = (window.pageYOffset / totalHeight) * 100;
-  			progress.style.height = progressHeight + "%";
-		}
+  window.onscroll = function () {
+  			const progressHeight = (window.pageYOffset / totalHeight) * 100
+  			progress.style.height = progressHeight + '%'
+  }
 }
