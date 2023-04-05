@@ -16,6 +16,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "sass": "^1.60.0",
     "vue": "^3.2.47"
   },
