@@ -12,7 +12,7 @@
   <title>Florian's portfolio</title>
   <meta name="title" content="Florian's portfolio">
   <meta name="description" content="Florian Braun's portfolio website">
-  <link rel="icon" href="./public/src/assets/images/favicon.ico" type="image/ico" sizes="1024x1024">
+  <link rel="icon" href="./src/assets/images/favicon.ico" type="image/ico" sizes="1024x1024">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -29,7 +29,8 @@
   <meta property="twitter:image" content="">
 
   <!-- Links -->
-  <link rel="stylesheet" href="./public/src/styles/style.pcss" />
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <!-- Body -->
@@ -81,8 +82,9 @@
   </section>
   <div id="footer"></div>
 
-  <script type="module" src="./public/src/scripts/script.ts"></script>
-  <script src="./public/src/scripts/script.js"></script>
+  <script type="module" src="./src/scripts/script.ts"></script>
+  <script src="./src/scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       once: false,
