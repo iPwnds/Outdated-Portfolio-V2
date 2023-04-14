@@ -8,7 +8,7 @@ function Age () {
   const day = currentDate.getDate() - birthDate.getDate()
 
   if (month < 0 || month == 0 && day < 0) {
-    	year--
+    year--
   }
 
   ageEl.innerText = year
@@ -19,7 +19,7 @@ function SideBar () {
   const totalHeight = document.body.scrollHeight - window.innerHeight
 
   window.onscroll = function () {
-  			const progressHeight = (window.pageYOffset / totalHeight) * 100
-  			progress.style.height = progressHeight + '%'
+    const progressHeight = (window.pageYOffset / totalHeight) * 100
+    progress.style.height = progressHeight + '%'
   }
 }
