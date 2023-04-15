@@ -5,7 +5,14 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   root: 'public',
-        build: {
-            outDir: '../dist'
-        }
+  build: {
+    outDir: '../dist',
+    rollupOptions: {
+      input: {
+        main: ('public/index.html'),
+        contact: ('public/contact.html'),
+        404: ('public/404.html'),
+      },
+    },
+  },
 })
