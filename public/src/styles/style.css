@@ -84,6 +84,14 @@ html {
     margin-right: 150px;
 }
 
+.pb1 {
+    padding-bottom: 20vw;
+}
+
+.pb2 {
+    padding-bottom: 2.5vw;
+}
+
 .button {
     background-color: var(--midnight-blue-800);
     border: none;

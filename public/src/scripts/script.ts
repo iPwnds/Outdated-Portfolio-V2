@@ -28,10 +28,10 @@ function BrowserDetect(){
         console.log(browserName)
 
     	if (browserName == "chrome") {
-    	  	 document.write("<link rel=\"stylesheet\" href=\"src/styles/style.css\" >");
+    	  	 document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
    			}else if (browserName == "firefox") {
-    	  	 document.write("<link rel=\"stylesheet\" href=\"src/styles/style.sass\" >");
+    	  	 document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
     		}else {
-    	  	 document.write("<link rel=\"stylesheet\" href=\"src/styles/style.css\" >");
+    	  	 document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
     		}
 }
