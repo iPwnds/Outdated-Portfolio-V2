@@ -1,3 +1,7 @@
+import { inject } from '@vercel/analytics';
+ 
+inject();
+
 import { createApp } from 'vue'
 
 import Header from '../components/Header.vue'
