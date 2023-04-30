@@ -1,6 +1,5 @@
 function Age () {
   const ageEl = document.getElementById('age')
-
   const birthDate = new Date(2005, 10, 19)
   const currentDate = new Date()
   let year = currentDate.getFullYear() - birthDate.getFullYear()
