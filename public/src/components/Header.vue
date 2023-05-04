@@ -16,6 +16,16 @@
 </template>
 
 <style scoped>
+  @media screen and (max-width: 900px) {
+    .topnav a {
+      font-size: 3vw;
+    }
+
+    .quote {
+      font-size: 4vw;
+    }
+  }
+
   header {
     overflow: hidden;
     padding: 2vw 2vw 10vh 2vw;
