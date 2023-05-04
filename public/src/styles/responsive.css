@@ -1,0 +1,33 @@
+@import './style.css';
+
+@media screen and (max-width: 900px) {
+    .header {
+        font-size: 12vw;
+        font-weight: 600;
+    }
+    
+    .huge {
+        font-size: 10vw;
+        font-weight: 500;
+    }
+    
+    .big {
+        font-size: 8vw;
+        font-weight: 400;
+    }
+    
+    .normal {
+        font-size: 4vw;
+        font-weight: 300;
+    }
+    
+    .small {
+        font-size: 3vw;
+        font-weight: 200;
+    }
+    
+    .mini {
+        font-size: 2vw;
+        font-weight: 100;
+    }
+}
