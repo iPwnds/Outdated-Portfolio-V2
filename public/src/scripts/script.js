@@ -1,8 +1,8 @@
-const letters = '❤️🧡💛💚💙💜🤎🖤🤍'
+const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 let interval = null
 
-document.querySelector('span').onmouseover = event => {
+document.querySelector('code').onmouseover = event => {
   let iteration = 0
 
   clearInterval(interval)
