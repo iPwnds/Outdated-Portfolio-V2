@@ -4,7 +4,7 @@
       <div class="content">
         <div class="rainbow" style="padding-top: 7.5vw;">
           <div>
-            <p>Made with &#128151; By Florian Braun</p>
+            <p>Made with ❤️ By Florian Braun</p>
           </div>
           <div>
             <p>&copy; copyright 2020 - {{ year() }} Florian Braun</p>
@@ -114,10 +114,10 @@
     font-weight: 100;
   }
 </style>
-    
+
 <script setup lang="ts">
-  const year = () => {
-	  var date = Date.now();
-    return new Date(date).getUTCFullYear();
-  };
+const year = () => {
+  const date = Date.now()
+  return new Date(date).getUTCFullYear()
+}
 </script>
