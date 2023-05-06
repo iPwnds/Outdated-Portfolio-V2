@@ -1,24 +1,41 @@
-function Age () {
-  const ageEl = document.getElementById('age')
-  const birthDate = new Date(2005, 10, 19)
-  const currentDate = new Date()
-  let year = currentDate.getFullYear() - birthDate.getFullYear()
-  const month = currentDate.getMonth() - birthDate.getMonth()
-  const day = currentDate.getDate() - birthDate.getDate()
+const letters = '❤️🧡💛💚💙💜🤎🖤🤍'
 
-  if (month < 0 || month == 0 && day < 0) {
-    year--
-  }
+let interval = null
 
-  ageEl.innerText = year
+document.querySelector('span').onmouseover = event => {
+  let iteration = 0
+
+  clearInterval(interval)
+
+  interval = setInterval(() => {
+    event.target.innerText = event.target.innerText
+      .split('')
+      .map((letter, index) => {
+        if (index < iteration) {
+          return event.target.dataset.value[index]
+        }
+
+        return letters[Math.floor(Math.random() * 26)]
+      })
+      .join('')
+
+    if (iteration >= event.target.dataset.value.length) {
+      clearInterval(interval)
+    }
+
+    iteration += 1 / 3
+  }, 30)
 }
 
-function SideBar () {
-  const progress = document.getElementById('progressbar')
-  const totalHeight = document.body.scrollHeight - window.innerHeight
+const ageEl = document.getElementById('age')
+const birthDate = new Date(2005, 10, 19)
+const currentDate = new Date()
+let year = currentDate.getFullYear() - birthDate.getFullYear()
+const month = currentDate.getMonth() - birthDate.getMonth()
+const day = currentDate.getDate() - birthDate.getDate()
 
-  window.onscroll = function () {
-    const progressHeight = (window.pageYOffset / totalHeight) * 100
-    progress.style.height = progressHeight + '%'
-  }
+if (month < 0 && month === 0 && day < 0) {
+  year--
 }
+
+ageEl.innerText = year
