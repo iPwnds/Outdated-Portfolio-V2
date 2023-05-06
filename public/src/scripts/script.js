@@ -26,16 +26,3 @@ document.querySelector('span').onmouseover = event => {
     iteration += 1 / 3
   }, 30)
 }
-
-const ageEl = document.getElementById('age')
-const birthDate = new Date(2005, 10, 19)
-const currentDate = new Date()
-let year = currentDate.getFullYear() - birthDate.getFullYear()
-const month = currentDate.getMonth() - birthDate.getMonth()
-const day = currentDate.getDate() - birthDate.getDate()
-
-if (month < 0 && month === 0 && day < 0) {
-  year--
-}
-
-ageEl.innerText = year
