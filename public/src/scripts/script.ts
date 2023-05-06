@@ -8,32 +8,16 @@ inject();
 createApp(Header).mount('#header');
 createApp(Footer).mount('#footer');
 
-function BrowserDetect(){
 
-	let userAgent = navigator.userAgent;
-    let browserName;
-         
-    if(userAgent.match(/chrome|chromium|crios/i)) {
-        browserName = "chrome";
-    } else if(userAgent.match(/firefox|fxios/i)) {
-        browserName = "firefox";
-    } else if(userAgent.match(/safari/i)) {
-        browserName = "safari";
-    } else if(userAgent.match(/opr\//i)) {
-        browserName = "opera";
-    } else if(userAgent.match(/edg/i)) {
-        browserName = "edge";
-    } else {
-        browserName="No browser detection";
-    }
+const bd = new Date('October 17, 2005')
+const cd = new Date()
 
-    console.log(browserName);
+const d = cd.getDate() - bd.getDate()
+const m = cd.getMonth() - bd.getMonth()
+let age = cd.getFullYear() - bd.getFullYear()
 
-    if (browserName == "chrome") {
-    	document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
-   	} else if (browserName == "firefox") {
-    	document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
-    } else {
-    	document.write("<link rel=\"stylesheet\" href=\"./src/styles/style.css\" >");
-    }
+if (m < 0 || (m === 0 && d < 0)) {
+    age--
 }
+
+document.getElementById('age').innerText = age.toString()
