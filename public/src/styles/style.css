@@ -190,6 +190,21 @@ html {
     animation: bar 15s linear infinite;
 }
 
+.magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--pink),
+      var(--purple),
+      var(--deep-purple),
+      var(--pink)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
 @keyframes bar {
     0% {
       background-position: 0%;
@@ -197,7 +212,17 @@ html {
     100% {
       background-position: 200%;
     }
-  }
+}
+
+@keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    
+    to {
+      background-position: -200% center;
+    }
+}
 
 ::-webkit-scrollbar {
     width: 10px;
