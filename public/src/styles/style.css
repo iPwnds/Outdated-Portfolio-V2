@@ -190,14 +190,6 @@ html {
     animation: bar 15s linear infinite;
 }
 
-.hr.anim:hover:before {
-    animation-duration: 20s;
-}
-
-.hr.anim:hover:after {
-    animation-duration: 2s;
-}
-
 @keyframes bar {
     0% {
       background-position: 0%;
