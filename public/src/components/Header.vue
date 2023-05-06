@@ -1,5 +1,5 @@
 <template>
-<div id="progressbar"></div>
+<div id="progressbar"></div> <!-- Doesn't work -->
 <header>
   <nav>
     <div class="topnav" data-aos="fade-in">
