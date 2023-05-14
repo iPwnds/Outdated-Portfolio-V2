@@ -13,33 +13,33 @@
         <div>
           <div class="tag"><b class="small light_colored">Contact</b><br></div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/github.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/github.svg"></object>
             <b>GitHub</b><br><a href="./contact.html" height="12px" width="12px">iPwnds</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/discord.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/discord.svg"></object>
             <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">FlorianB#2341</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/twitter.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/twitter.svg"></object>
             <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">Floski11</a>
           </div>
         </div>
         <div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/reddit.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/reddit.svg"></object>
             <b>Reddit</b><br><a href="./contact.html" height="12px" width="12px">NotPwnds</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/instagram.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/instagram.svg"></object>
             <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">Floski___</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/mail.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/mail.svg"></object>
             <b>Email Public</b><br><a href="./contact.html" height="12px" width="12px">Florian.Braun.2005@gmail.com</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="../assets/svg/mail.svg"></object>
+            <object type="image/svg+xml" data="./src/assets/svg/mail.svg"></object>
             <b>Email Private</b><br><a href="./contact.html" height="12px" width="12px">FlorianB.Priv@gmail.com</a>
           </div>
         </div>
