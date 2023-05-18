@@ -7,5 +7,12 @@ export default defineConfig({
   root: 'public',
   build: {
     outDir: '../dist',
+    rollupOptions: {
+      input: {
+        main: ('public/index.html'),
+        contact: ('public/contact.html'),
+        404: ('public/404.html'),
+      },
+    },
   },
 })
