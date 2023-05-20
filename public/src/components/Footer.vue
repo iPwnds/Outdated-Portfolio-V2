@@ -3,43 +3,43 @@
     <div class="footer" style="padding: 5vw 0vw 1vw 1vw;">
       <div class="content">
         <div class="rainbow" style="padding-top: 7.5vw;">
-          <div>
+          <div data-aos="fade-in">
             <p>Made with ❤️ By Florian Braun</p>
           </div>
-          <div>
+          <div data-aos="fade-in">
             <p>&copy; copyright 2020 - {{ year() }} Florian Braun</p>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-in">
           <div class="tag"><b class="small light_colored">Contact</b><br></div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/github.svg"></object>
+            <Github />
             <b>GitHub</b><br><a href="./contact.html" height="12px" width="12px">iPwnds</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/discord.svg"></object>
+            <Discord />
             <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">FlorianB#2341</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/twitter.svg"></object>
+            <Twitter />
             <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">Floski11</a>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-in">
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/reddit.svg"></object>
+            <Reddit />
             <b>Reddit</b><br><a href="./contact.html" height="12px" width="12px">NotPwnds</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/instagram.svg"></object>
+            <Instagram />
             <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">Floski___</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/mail.svg"></object>
+            <Mail />
             <b>Email Public</b><br><a href="./contact.html" height="12px" width="12px">Florian.Braun.2005@gmail.com</a>
           </div>
           <div>
-            <object type="image/svg+xml" data="./src/assets/svg/mail.svg"></object>
+            <Mail />
             <b>Email Private</b><br><a href="./contact.html" height="12px" width="12px">FlorianB.Priv@gmail.com</a>
           </div>
         </div>
@@ -116,6 +116,13 @@
 </style>
 
 <script setup lang="ts">
+import Discord from '../assets/svg/discord.svg'
+import Github from '../assets/svg/github.svg'
+import Instagram from '../assets/svg/instagram.svg'
+import Mail from '../assets/svg/mail.svg'
+import Reddit from '../assets/svg/reddit.svg'
+import Twitter from '../assets/svg/twitter.svg'
+
 const year = () => {
   const date = Date.now()
   return new Date(date).getUTCFullYear()
