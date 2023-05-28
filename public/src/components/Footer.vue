@@ -22,13 +22,13 @@
           </div>
           <div>
             <Twitter />
-            <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">Floski11</a>
+            <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">PrivFlosk1</a>
           </div>
         </div>
         <div data-aos="fade-in">
           <div>
             <Reddit />
-            <b>Reddit</b><br><a href="./contact.html" height="12px" width="12px">NotPwnds</a>
+            <b>Reddit</b><br><a href="./contact.html" height="12px" width="12px">Flosk1</a>
           </div>
           <div>
             <Instagram />
