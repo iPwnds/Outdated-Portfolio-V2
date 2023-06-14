@@ -18,7 +18,7 @@
           </div>
           <div>
             <Discord />
-            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">Florian#4501</a>
+            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">FlorianBraun</a>
           </div>
           <div>
             <Twitter />
