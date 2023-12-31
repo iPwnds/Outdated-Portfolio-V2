@@ -4,60 +4,57 @@
 <!-- Head -->
 
 <head>
-
-  <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary Meta Tags -->
   <title>Florian's portfolio</title>
   <meta name="title" content="Florian's portfolio">
   <meta name="description" content="Florian Braun's portfolio website">
-  <link rel="icon" href="./src/assets/svg/logo.ico" type="image/ico" sizes="1024x1024">
+  <link rel="icon" href="./src/assets/images/favicon.ico" type="image/ico" sizes="1024x1024">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://florianb.tk/">
+  <meta property="og:url" content="https://florianb.info/">
   <meta property="og:title" content="Florian's portfolio">
   <meta property="og:description" content="Florian Braun's portfolio website">
   <meta property="og:image" content="">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://florianb.tk/">
+  <meta property="twitter:url" content="https://florianb.info/">
   <meta property="twitter:title" content="Florian's portfolio">
   <meta property="twitter:description" content="Florian Braun's portfolio website">
   <meta property="twitter:image" content="">
 
   <!-- Links -->
-
   <link rel="stylesheet" href="./src/styles/style.css" />
-
-
+  <link rel="stylesheet" href="./src/styles/responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
- 
 </head>
 
 <!-- Body -->
 
-<body onload="SideBar()">
-  <div id="header"></div>
+<body>
+
+  <nav id="header"></nav>
+
   <section class="centered">
     <div class="animated">
-      <h1 class="header" data-aos="fade-in">
-        My Projects
-      </h1>
+      <h1 class="huge" data-aos="fade-in">Projects</h1>
     </div>
-    <b class="hr anim" style="width: 40%;" data-aos="fade-in"></b>
+    <b class="hr anim" style="width: 25%;" data-aos="fade-in"></b>
+    <div style="padding-bottom: 10vw;"></div>
   </section>
-  <div style="padding-top: 25vh;"></div>
+
   <section class="left">
     <div>
-      <h1 class="text pink__colored" data-aos="fade-right">
-        Space Astro
-      </h1>
+      <h1 class="small light_colored" data-aos="fade-right">Websites</h1>
     </div>
+  </section>
+
+  <!-- 
     <br>
     <div>
       <h1 class="box lightpink__colored" data-aos="zoom-out">
@@ -313,21 +310,21 @@
       <br>
       <br>
     </div>
-  </section>
-  <div id="footer"></div>
+  </section> -->
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <nav id="footer"></nav>
+
   <script type="module" src="./src/scripts/script.ts"></script>
   <script src="./src/scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       once: false,
       mirror: true,
       anchorPlacement: 'top-bottom',
       offset: 0,
-      duration: 800
+      duration: 1000
     });
   </script>
 </body>
-
 </html>
