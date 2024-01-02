@@ -1,4 +1,4 @@
-import AOS from 'aos';
+import AOS from 'aos'
 
 AOS.init({
   once: false,
@@ -6,7 +6,7 @@ AOS.init({
   anchorPlacement: 'top-bottom',
   offset: 0,
   duration: 1000
-});
+})
 
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
