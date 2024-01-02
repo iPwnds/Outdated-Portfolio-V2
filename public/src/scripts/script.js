@@ -1,13 +1,3 @@
-import AOS from 'aos'
-
-AOS.init({
-  once: false,
-  mirror: true,
-  anchorPlacement: 'top-bottom',
-  offset: 0,
-  duration: 1000
-})
-
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 let interval = null
