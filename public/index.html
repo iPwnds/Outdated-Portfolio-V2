@@ -32,12 +32,25 @@
   <link rel="stylesheet" href="./src/styles/style.css" />
   <link rel="stylesheet" href="./src/styles/responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Scripts -->
+  <script type="module" src="./src/scripts/script.ts"></script>
+  <script src="./src/scripts/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: false,
+      mirror: true,
+      anchorPlacement: 'top-bottom',
+      offset: 0,
+      duration: 1000
+    });
+  </script>
 </head>
 
 <!-- Body -->
 
 <body>
-
   <nav id="header"></nav>
 
   <section class="centered pb1">
@@ -85,18 +98,5 @@
   </section>
 
   <nav id="footer"></nav>
-
-  <script type="module" src="./src/scripts/script.ts"></script>
-  <script src="./src/scripts/script.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      once: false,
-      mirror: true,
-      anchorPlacement: 'top-bottom',
-      offset: 0,
-      duration: 1000
-    });
-  </script>
 </body>
 </html>
