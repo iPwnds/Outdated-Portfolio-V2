@@ -17,30 +17,26 @@
             <b>GitHub</b><br><a href="./contact.html" height="12px" width="12px">iPwnds</a>
           </div>
           <div>
-            <Discord />
-            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">FlorianBraun</a>
+            <Linkedin />
+            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">Florian Braun</a>
           </div>
           <div>
-            <Twitter />
-            <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">PrivFlosk1</a>
+            <Discord />
+            <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">florianbraun</a>
           </div>
         </div>
         <div data-aos="fade-in">
           <div>
-            <Reddit />
-            <b>Reddit</b><br><a href="./contact.html" height="12px" width="12px">Flosk1</a>
+            <Mail />
+            <b>Personal Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@BraunF.net</a>
+          </div>
+          <div>
+            <Mail />
+            <b>Business Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@ATWorld.shop</a>
           </div>
           <div>
             <Instagram />
             <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">Floski___</a>
-          </div>
-          <div>
-            <Mail />
-            <b>Email Public</b><br><a href="./contact.html" height="12px" width="12px">Florian.Braun.2005@gmail.com</a>
-          </div>
-          <div>
-            <Mail />
-            <b>Email Private</b><br><a href="./contact.html" height="12px" width="12px">FlorianB.Priv@gmail.com</a>
           </div>
         </div>
       </div>
@@ -117,11 +113,10 @@
 
 <script setup lang="ts">
 import Discord from '../assets/svg/discord.svg'
+import Linkedin from '../assets/svg/linkedin.svg'
 import Github from '../assets/svg/github.svg'
 import Instagram from '../assets/svg/instagram.svg'
 import Mail from '../assets/svg/mail.svg'
-import Reddit from '../assets/svg/reddit.svg'
-import Twitter from '../assets/svg/twitter.svg'
 
 const year = () => {
   const date = Date.now()
