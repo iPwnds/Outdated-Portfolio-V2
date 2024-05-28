@@ -18,11 +18,11 @@
           </div>
           <div>
             <Linkedin />
-            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">Florian Braun</a>
+            <b>LinkedIn</b><br><a href="./contact.html" height="12px" width="12px">Florian Braun</a>
           </div>
           <div>
             <Discord />
-            <b>Twitter</b><br><a href="./contact.html" height="12px" width="12px">florianbraun</a>
+            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">florianbraun</a>
           </div>
         </div>
         <div data-aos="fade-in">
@@ -32,11 +32,11 @@
           </div>
           <div>
             <Mail />
-            <b>Business Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@ATWorld.shop</a>
+            <b>Business Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@coreworld.shop</a>
           </div>
           <div>
             <Instagram />
-            <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">Floski___</a>
+            <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">florianb.25</a>
           </div>
         </div>
       </div>
