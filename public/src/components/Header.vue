@@ -10,7 +10,7 @@
     </div>
   </nav>
   <div class="quote" data-aos="fade-in">
-    <a href="https://www.atworld.shop" class="gradient">Never<br>Give<br>Up</a>
+    <a href="https://www.coreworld.shop" class="gradient">Never<br>Give<br>Up</a>
   </div>
 </header>
 </template>
