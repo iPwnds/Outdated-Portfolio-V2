@@ -22,7 +22,7 @@
           </div>
           <div>
             <Discord />
-            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">florianbraun</a>
+            <b>Discord</b><br><a href="./contact.html" height="12px" width="12px">FlorianBraun</a>
           </div>
         </div>
         <div data-aos="fade-in">
@@ -32,11 +32,11 @@
           </div>
           <div>
             <Mail />
-            <b>Business Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@coreworld.shop</a>
+            <b>Business Email</b><br><a href="./contact.html" height="12px" width="12px">Contact@CoreWorld.shop</a>
           </div>
           <div>
             <Instagram />
-            <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">florianb.25</a>
+            <b>Instagram</b><br><a href="./contact.html" height="12px" width="12px">FlorianB.25</a>
           </div>
         </div>
       </div>
